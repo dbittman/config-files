@@ -296,4 +296,5 @@ alias svm='ssh student@cs105vm01.soe.ucsc.edu'
 PATH=$PATH:/home/piranha/.gem/ruby/2.1.0/bin
 export GCC_COLORS="error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01"
 export TERM=xterm-256color
+[ -n "$TMUX" ] && export TERM=screen-256color
 
