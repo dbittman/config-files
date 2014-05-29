@@ -439,3 +439,5 @@ function! Smart_TabComplete()
 endfunction
 inoremap <S-tab> <c-r>=Smart_TabComplete()<CR>
 
+set tenc=utf8
+
