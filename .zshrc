@@ -33,8 +33,9 @@ TZ="America/Los_Angeles"
 
 alias wtf='dmesg'
 
-PAGER='less'
-EDITOR='nano'
+export PAGER='less'
+export EDITOR='vim'
+
 autoload colors zsh/terminfo
 if [[ "$terminfo[colors]" -ge 8 ]]; then
    colors
@@ -47,9 +48,6 @@ done
 PR_NO_COLOR="%{$terminfo[sgr0]%}"
 
 unsetopt ALL_EXPORT
-alias slrn="slrn -n"
-alias man='LC_ALL=C LANG=C man'
-alias f=finger
 alias ll='ls -al'
 alias ls='ls --color=auto '
 alias offlineimap-tty='offlineimap -u TTY.TTYUI'
@@ -139,32 +137,10 @@ zstyle ':completion:*:ssh:*' tag-order \
 zstyle ':completion:*:ssh:*' group-order \
    hosts-domain hosts-host users hosts-ipaddr
 zstyle '*' single-ignored show
-export PATH=$PATH:/usr/local/cross/bin/
-export BROWSER="chromium"
 
 autoload -U promptinit
 promptinit
 
-if [[ $(acpi 2&>/dev/null | grep -c '^Battery') -gt 0 ]] ; then
-  function battery_pct_remaining() { echo "$(acpi | cut -f2 -d ',' | tr -cd '[:digit:]')" }
-  function battery_time_remaining() { echo $(acpi | cut -f3 -d ',') }
-  function battery_pct_prompt() {
-    b=$(battery_pct_remaining)
-    if [ $b -gt 50 ] ; then
-      color='green'
-    elif [ $b -gt 20 ] ; then
-      color='yellow'
-    else
-      color='red'
-    fi
-    echo "%{$fg[$color]%}[$(battery_pct_remaining)%%]%{$reset_color%}"
-  }
-else
-  error_msg='no battery'
-  function battery_pct_remaining() { echo $error_msg }
-  function battery_time_remaining() { echo $error_msg }
-  function battery_pct_prompt() { echo '' }
-fi
 function extract() {
   local remove_archive
   local success
@@ -197,15 +173,15 @@ function extract() {
     file_name="$( basename "$1" )"
     extract_dir="$( echo "$file_name" | sed "s/\.${1##*.}//g" )"
     case "$1" in
-      (*.tar.gz|*.tgz) tar xvzf "$1" ;;
-      (*.tar.bz2|*.tbz|*.tbz2) tar xvjf "$1" ;;
+      (*.tar.gz|*.tgz) tar xzf "$1" ;;
+      (*.tar.bz2|*.tbz|*.tbz2) tar xjf "$1" ;;
       (*.tar.xz|*.txz) tar --xz --help &> /dev/null \
-        && tar --xz -xvf "$1" \
-        || xzcat "$1" | tar xvf - ;;
+        && tar --xz -xf "$1" \
+        || xzcat "$1" | tar xf - ;;
       (*.tar.zma|*.tlz) tar --lzma --help &> /dev/null \
-        && tar --lzma -xvf "$1" \
-        || lzcat "$1" | tar xvf - ;;
-      (*.tar) tar xvf "$1" ;;
+        && tar --lzma -xf "$1" \
+        || lzcat "$1" | tar xf - ;;
+      (*.tar) tar xf "$1" ;;
       (*.gz) gunzip "$1" ;;
       (*.bz2) bunzip2 "$1" ;;
       (*.xz) unxz "$1" ;;
@@ -218,8 +194,8 @@ function extract() {
         mkdir -p "$extract_dir/control"
         mkdir -p "$extract_dir/data"
         cd "$extract_dir"; ar vx "../${1}" > /dev/null
-        cd control; tar xzvf ../control.tar.gz
-        cd ../data; tar xzvf ../data.tar.gz
+        cd control; tar xzf ../control.tar.gz
+        cd ../data; tar xzf ../data.tar.gz
         cd ..; rm *.tar.gz debian-binary
         cd ..
       ;;
@@ -287,11 +263,7 @@ zle -N edit-command-line
 bindkey '^Xe' edit-command-line
 
 alias sut='ssh dbittman@unix.ic.ucsc.edu'
-alias engage='sudo start-wpa wlan0 & ; startx'
 compinit
-
-alias rnt='sudo systemctl restart network.service'
-alias svm='ssh student@cs105vm01.soe.ucsc.edu'
 
 PATH=$PATH:/home/piranha/.gem/ruby/2.1.0/bin
 export GCC_COLORS="error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01"
