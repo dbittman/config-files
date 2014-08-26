@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=gps.conf
+Type=Link
+URL[$e]=file://$HOME/cm10/device/htc/ace/configs/gps.conf
+X-KDE-LastOpenedWith=kwrite

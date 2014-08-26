@@ -1,0 +1,32 @@
+[Desktop Entry]
+FullScreen=false
+
+[KFileDialog Settings]
+Height 1024=450
+Height 1080=450
+Recent Files[$e]=$HOME/Documents/phys2/grid.png,$HOME/Documents/cs102/hw4.pdf,$HOME/Documents/phys2/cal_en.pdf,$HOME/Documents/cs102/hw3.pdf
+Recent URLs[$e]=$HOME/Downloads/,$HOME/code/,$HOME/code/arm-kernel/,$HOME/Documents/writ2/,$HOME/Documents/cs102/,$HOME/Documents/phys2/
+Width 1280=720
+Width 1920=720
+
+[MainWindow]
+Height 1024=945
+Height 1080=553
+Height 900=553
+State=AAAA/wAAAAD9AAAAAAAAA7wAAAH0AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=1134
+Width 1440=956
+Width 1920=956
+
+[Print Preview]
+Height 1080=1035
+Width 1920=1920
+
+[Recent Files]
+File1[$e]=$HOME/code/basil/doc/basil-isa.pdf
+File2[$e]=$HOME/code/sea/seakernel/documentation/built/main.pdf
+File3[$e]=$HOME/Downloads/incremental-fluids-master/incremental-fluids-master/1-matrixless/Frame00065.png
+Name1[$e]=basil-isa.pdf
+Name2[$e]=main.pdf
+Name3[$e]=Frame00065.png

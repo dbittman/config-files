@@ -1,0 +1,32 @@
+[Colors]
+CurrentPalette=Forty Colors
+
+[DownloadDialog Settings]
+Height 1080=400
+Height 900=664
+Width 1440=1010
+Width 1920=700
+
+[KFileDialog Settings]
+Height 900=437
+Recent Files[$e]=FullFlat2.0.qtcurve,$HOME/Downloads/Reflektions_by_linuxfever.zip,$HOME/Downloads/ALLGREY UniQ Edition.tar.gz,$HOME/Downloads/full_flat_2_0_by_lgsalvati-d4vrwgz/FullFlat_2.0/FullFlat_20_red.colors,$HOME/Downloads/full_flat_2_0_by_lgsalvati-d4vrwgz/FullFlat_2.0/FullFlat_20_green.colors,$HOME/Downloads/full_flat_2_0_by_lgsalvati-d4vrwgz/FullFlat_2.0/FullFlat_20_blue.colors,$HOME/Downloads/full_flat_2_0_by_lgsalvati-d4vrwgz/FullFlat_2.0/FullFlat2.0.qtcurve
+Recent URLs[$e]=$HOME/Downloads/,$HOME/code/,$HOME/code/arm-kernel/,$HOME/Documents/writ2/,$HOME/code/sea/toolchain/newlib-sys-seaos/,$HOME/Downloads/full_flat_2_0_by_lgsalvati-d4vrwgz/FullFlat_2.0/
+Width 1440=720
+
+[KPropertiesDialog]
+Height 1080=375
+Width 1920=285
+
+[MainWindow]
+Height 1024=557
+Height 1080=557
+Height 900=557
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABJ0AAAINAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=1181
+Width 1440=1181
+Width 1920=1181
+
+[Notification Messages]
+FontSettingsChanged=false

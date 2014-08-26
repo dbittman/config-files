@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-makefile
+Name=AndroidBoard.mk
+Type=Link
+URL[$e]=file://$HOME/cm10/device/htc/ace/AndroidBoard.mk
+X-KDE-LastOpenedWith=kwrite

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-csrc
+Name=wait.c
+Type=Link
+URL[$e]=file://$HOME/code/sea/seakernel/kernel/tm/wait.c
+X-KDE-LastOpenedWith=kwrite

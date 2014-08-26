@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=sea_defines.inc
+Type=Link
+URL[$e]=file://$HOME/code/sea/seakernel/sea_defines.inc
+X-KDE-LastOpenedWith=kwrite

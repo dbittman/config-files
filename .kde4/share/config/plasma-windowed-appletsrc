@@ -1,0 +1,11 @@
+[StoredApplets][1]
+geometry=0,0,476,216
+immutability=1
+plugin=calendar
+zvalue=0
+
+[StoredApplets][2]
+geometry=0,0,200,100
+immutability=1
+plugin=pager
+zvalue=0

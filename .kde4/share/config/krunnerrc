@@ -1,0 +1,45 @@
+[EdgePositions]
+Offset=0.5
+
+[General]
+PastQueries=sudo dolphin,mopidy,ls,,kcalc,Netflix Desktop,n,n,steam,n,Skype,Steam,TeamSpeak 3,ardour3,KWrite,Firefox,dolph,Dolphin,net,KCalc,fire,Oracle VM VirtualBox,Virtual Desktops,dol,SMPlayer,Chromium,Okular,z,okular,XTerm,xterm,skype,kwrite,KDevelop 4,kdev,sky,netf,chromium-dev,chrom,inkscape,kg,v,virtu,kd,vmpl,vmplayer,kdesu dolphin,virt,libr,kor
+
+[Interface]
+Size=420,500
+
+[PlasmaRunnerManager]
+LaunchCounts=1 windows_0_88080387,25 services_virtualbox.desktop,1 windows_0_98566147,1 windows_0_6291488,1 windows_0_71303169,2 shell_kdesu dolphin,1 services_dolphin-emu.desktop,1 shell_winetricks,1 services_kcm_akonadi_resources.desktop,30 services_skype.desktop,28 services_firefox.desktop,1 windows_0_27263234,1 services_vmware-player.desktop,1 windows_0_106954806,1 shell_ls,9 services_chromium.desktop,1 windows_0_46137480,1 shell_cal,1 services_gimp.desktop,6 services_teamspeak3.desktop,2 shell_ardour3,1 shell_skype,2 shell_sudo dolphin,1 org.kde.windowedwidgets_plasma-applet-calendar.desktop,1 services_kde4-ksysguard.desktop,1 windows_0_94371843,2 services_kde4-dolphin.desktop,1 services_inkscape.desktop,26 services_kde4-kdevelop.desktop,5 shell_google-musicmanager,36 services_steam.desktop,1 shell_mopidy,13 shell_net,1 shell_kgpg,2 shell_fire,1 services_smplayer.desktop,2 services_kde4-konversation.desktop,8 services_desktop.desktop,1 org.kde.windowedwidgets_plasma-pager-default.desktop,37 services_kde4-kcalc.desktop,1 windows_0_113246242,1 services_kde4-kgpg.desktop,4 services_kde4-konsole.desktop,3 shell_korganizer,4 services_wine-Programs-Steam-Steam.desktop,3 services_kde4-kwrite.desktop,1 shell_akonadiconsole,1 shell_chromium-dev,4 shell_gimp,3 services_kde4-korganizer.desktop,1 shell_simple-gmail-notifier,113 services_netflix-desktop.desktop,2 services_xterm.desktop,1 services_libreoffice-writer.desktop,1 windows_0_94372072,6 services_kcm_akonadi.desktop,3 services_kde4-okular.desktop,1 shell_chromium --incognito,1 shell_vmplayer,1 shell_gparted
+
+[Plugins]
+Kill RunnerEnabled=true
+PowerDevilEnabled=true
+baloosearchEnabled=true
+bookmarksEnabled=true
+calculatorEnabled=true
+desktopsessionsEnabled=true
+locationsEnabled=true
+org.kde.activitiesEnabled=true
+org.kde.windowedwidgetsEnabled=true
+placesEnabled=true
+plasma-desktopEnabled=true
+recentdocumentsEnabled=true
+servicesEnabled=true
+shellEnabled=true
+solidEnabled=true
+webshortcutsEnabled=true
+windowsEnabled=true
+
+[TaskDialog]
+Height 1080=419
+Width 1920=649
+filterState=0
+headerState=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0f‹3\x00\x00\x00\t\x00\x00\x00\r\x00\x00\x00d\x00\x00\x00\x0c\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\x06\x00\x00\x00d\x00\x00\x00\x04\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\x02\x00\x00\x00d\x00\x00\x02|\x00\x00\x00\x0f\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00»\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00J\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00U\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00r\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00£\x00\x00\x00\x01\x00\x00\x00\x00
+ioInformation=5
+ioUnits=1
+normalizeCPUUsage=true
+showCommandLineOptions=false
+showTooltips=true
+showTotals=true
+units=1
+updateIntervalMSecs=2000
+version=5

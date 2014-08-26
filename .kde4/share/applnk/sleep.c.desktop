@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-csrc
+Name=sleep.c
+Type=Link
+URL[$e]=file://$HOME/code/sea/apps/porting/ported/coreutils-8.16/src/sleep.c
+X-KDE-LastOpenedWith=kwrite

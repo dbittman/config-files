@@ -1,0 +1,11 @@
+[Plugins]
+kdeconnect_batteryEnabled=true
+kdeconnect_clipboardEnabled=true
+kdeconnect_mousepadEnabled=true
+kdeconnect_mpriscontrolEnabled=true
+kdeconnect_notificationsEnabled=true
+kdeconnect_pausemusicEnabled=true
+kdeconnect_pingEnabled=true
+kdeconnect_sftpEnabled=true
+kdeconnect_shareEnabled=true
+kdeconnect_telephonyEnabled=true

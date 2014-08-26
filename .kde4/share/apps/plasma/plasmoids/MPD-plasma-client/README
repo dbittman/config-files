@@ -1,0 +1,10 @@
+MPD plasma client - it small simply plasmoid, written on python, which controls mpd server.
+There are only the following functions: previous/next song, play/pause, stop, connect Client connect automatically on localhost:6600
+
+INSTALL:
+plasmapkg -i MPD-plasma-client.plasmoid
+
+REMOVE:
+plasmapkg -u MPD-plasma-client
+
+NOTE: If you have old version of MPD-plasma-client, remove it, before installing new version

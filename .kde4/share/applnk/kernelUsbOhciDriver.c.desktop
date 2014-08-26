@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-csrc
+Name=kernelUsbOhciDriver.c
+Type=Link
+URL[$e]=file://$HOME/Downloads/visopsys-0.72-src/visopsys-0.72-src/src/kernel/kernelUsbOhciDriver.c
+X-KDE-LastOpenedWith=kdevelop

@@ -1,0 +1,25 @@
+The following license applies to amarok.svgz
+(see http://commits.kde.org/amarok/1f9f6ad769d8e929a5a97afd3bed4c2b326d015e):
+
+    This icon is free software; you can redistribute it and/or modify it under
+    the terms of either:
+
+    a) the GNU General Public License as published by the Free
+       Software Foundation; either version 1, or (at your option) any
+       later version, or
+
+    b) the Artistic License as published by the Perl Foundation, either version
+       2.0, or (at your option) any later version.
+
+    This icon is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See either
+    the GNU General Public License or the Artistic License for more details.
+
+    You should have received a copy of the Artistic License with this icon,
+    in the file named "Artistic-2.0.txt".  If not, see
+    <http://www.perlfoundation.org/legal/>.
+
+    You should also have received a copy of the GNU General Public License
+    along with this icon in the file named "GPLv3.txt"; if not, see
+    <http://www.gnu.org/licenses/>.

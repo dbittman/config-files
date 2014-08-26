@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=Kconfig
+Type=Link
+URL[$e]=file://$HOME/cm10/kernel/htc/htc7x30-3.0/Kconfig
+X-KDE-LastOpenedWith=kwrite

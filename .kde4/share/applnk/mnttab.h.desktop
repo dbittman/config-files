@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-chdr
+Name=mnttab.h
+Type=Link
+URL[$e]=file://$HOME/code/sea/toolchain/newlib-sys-seaos/sys/mnttab.h
+X-KDE-LastOpenedWith=kwrite

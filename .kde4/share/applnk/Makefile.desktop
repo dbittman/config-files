@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-makefile
+Name=Makefile
+Type=Link
+URL[$e]=file://$HOME/code/sea/seakernel/library/Makefile
+X-KDE-LastOpenedWith=kwrite

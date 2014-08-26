@@ -1,0 +1,132 @@
+[General Options]
+ShowMenuBar=true
+ShowPath=false
+ShowStatusBar=true
+
+[KFileDialog Settings]
+Height 1080=450
+Height 900=437
+Recent Files[$e]=$HOME/code/cs122/a1/dc2,$HOME/Documents/love.tex,$HOME/Documents/cit.txt,$HOME/Documents/writ2/03.tex,$HOME/Documents/writ2/template.tex
+Recent URLs[$e]=$HOME/code/arm-kernel/,$HOME/Documents/writ2/,$HOME/code/cs122/a1/
+Width 1440=720
+Width 1920=720
+
+[Kate Document Defaults]
+Allow End of Line Detection=true
+Allow Simple Mode=true
+BOM=false
+Backup Flags=0
+Backup Prefix=
+Backup Suffix=~
+Encoding=ISO-8859-1
+End of Line=0
+Indent On Backspace=false
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=4096
+Newline At EOF=false
+No sync=false
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=0
+ReplaceTabsDyn=false
+Search Dir Config Depth=9
+Show Spaces=false
+Show Tabs=true
+Smart Home=true
+Tab Handling=2
+Tab Width=4
+Word Wrap=false
+Word Wrap Column=80
+
+[Kate Part Defaults]
+Encoding Prober Type=1
+Fallback Encoding=ISO-8859-15
+
+[Kate Renderer Defaults]
+Animate Bracket Matching=false
+Schema=Normal
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[Kate Vi Input Mode Settings]
+Command Mode Mapping Keys=
+Command Mode Mappings=
+Command Mode Mappings Recursion=
+Insert Mode Mapping Keys=
+Insert Mode Mappings=
+Insert Mode Mappings Recursion=
+Macro Completions=
+Macro Contents=
+Macro Registers=
+Normal Mode Mapping Keys=
+Normal Mode Mappings=
+Normal Mode Mappings Recursion=
+Visual Mode Mapping Keys=
+Visual Mode Mappings=
+Visual Mode Mappings Recursion=
+
+[Kate View Defaults]
+Allow Mark Menu=true
+Auto Center Lines=0
+Auto Completion=true
+Bookmark Menu Sorting=0
+Default Mark Type=1
+Dynamic Word Wrap=false
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap Indicators=1
+Folding Bar=true
+Icon Bar=false
+Keyword Completion=true
+Line Modification=false
+Line Numbers=false
+Maximum Search History Size=100
+Persistent Selection=false
+Replacement Text History=$individual_install,#{install_base},#{INSTALL_BASE},cryptography,,cross_compiling=yes,libmem.h,DEBUG(,DEBUG
+Scroll Bar Marks=false
+Scroll Bar Mini Map=false
+Scroll Bar Mini Map All=false
+Scroll Bar Mini Map Width=60
+Scroll Past End=false
+Search Pattern History=linux,seaos,libstdlib_la_DEPENDENCIES,freer,use_lib,MMAP(,mmap(,mmap,unlinkat,INDIVIDUAL_INSTALL,install-base,inclu,crypto,#,key_expansion_128,key_expansion,_key_expansion_128,BIO_CONN_S_CREATE_SOCKET,seaos64.h,cross_compiling=no,maybe,CROSS_COMPILING_TRUE,cross_com,cross_,getnamein,passwd,u_int32,netinet,USE_SOCK,memalloc.h,xor,calc,find_una,log,fprintf(stderr\\, ,copper,4087,src/bison ,src/bison,seteuid,setegid,setres,gcc,i586-pc,f_flag,#undef HA,#define HAVE_OPE,I_PUSH,OPENP,fortu,lib/,CWD_,fenv,ac_fn_cxx_try_link,sys/dire,uint32,sentry,ostream.tcc,__os.tie() && __os.good(), _ctype,intmax_t,uint16,-D,stdint,conven,play_l,MIN_USER,RTS_UN,RTS_,queue,dataRea,PacketQ,thHt,thi,signal,configure_rx,rx_,ERROR,WARNING,init_contro,init_column_in,calculate_,io_blk,cross_compiling,CC_FOR_BUILD,mksyntax,wait,pex_get_stat,pex_get_status,failed to get,No more ,CFLAGS,kernel,mechjeb,shndx,entry,symtab,x86_64,supris,surpris
+Search/Replace Flags=140
+Show Scrollbars=0
+Smart Copy Cut=false
+Vi Input Mode=false
+Vi Input Mode Emulate Command Bar=false
+Vi Input Mode Hide Status Bar=false
+Vi Input Mode Steal Keys=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
+
+[MainWindow]
+Height 1024=559
+Height 1080=559
+Height 900=559
+State=AAAA/wAAAAD9AAAAAAAAA7gAAAHlAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=952
+Width 1440=952
+Width 1920=952
+
+[Recent Files]
+File1[$e]=$HOME/code/sea/toolchain/build/gcc-4.9.0/gcc/config/ia64/linux.h
+File2[$e]=$HOME/code/sea/toolchain/build/gcc-4.9.0/gcc/config/i386/gnu-user.h
+File3[$e]=$HOME/code/sea/toolchain/build/gcc-4.9.0/gcc/config/seaos.h
+File4[$e]=$HOME/code/sea/toolchain/build/gcc-4.9.0/gcc/config/seaos64.h
+File5[$e]=$HOME/code/sea/toolchain/build/binutils-2.22/ld/emulparams/i386linux.sh
+File6[$e]=$HOME/code/sea/toolchain/build/binutils-2.22/ld/emulparams/elf_i386.sh
+File7[$e]=$HOME/Downloads/derp
+Name1[$e]=linux.h
+Name2[$e]=gnu-user.h
+Name3[$e]=seaos.h
+Name4[$e]=seaos64.h
+Name5[$e]=i386linux.sh
+Name6[$e]=elf_i386.sh
+Name7[$e]=derp

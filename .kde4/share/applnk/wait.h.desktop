@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-chdr
+Name=wait.h
+Type=Link
+URL[$e]=file://$HOME/code/sea/toolchain/newlib-2.0.0/newlib/libc/include/sys/wait.h
+X-KDE-LastOpenedWith=kwrite

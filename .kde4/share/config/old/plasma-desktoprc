@@ -1,0 +1,49 @@
+[BackgroundConfigDialog]
+Height 900=719
+Width 1440=665
+
+[KFileDialog Settings]
+Height 900=437
+Recent Files[$e]=P1040079.JPG,$HOME/Downloads/P1040079.JPG
+Width 1440=720
+
+[KPropertiesDialog]
+Height 900=356
+Width 1440=386
+
+[Open-with settings]
+CompletionMode=5
+History=gwenview,chromium,konsole
+
+[PlasmaViews][1]
+panelVisibility=0
+
+[PlasmaViews][1][Sizes]
+lastsize=1440
+
+[Updates]
+performed=/usr/share/apps/plasma-desktop/updates/systray-to-notifications-widget.js,/usr/share/apps/plasma-desktop/updates/set-hidden-single-vd-pager.js,/usr/share/apps/plasma-desktop/updates/addShowActivitiesManagerPlasmoid.js
+
+[ViewIds]
+1=1
+12=2
+
+[invokeAction]
+__file=
+predicate=test-predicate-openinwindow.desktop
+
+[remove]
+Id=4a36929d-8de5-4307-bcfc-46316ef2735f
+__file=
+
+[setCurrent]
+__file=
+
+[stop]
+__file=
+
+[toggleActivityManager]
+__file=
+
+[updateFreespace]
+__file=

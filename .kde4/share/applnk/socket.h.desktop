@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-chdr
+Name=socket.h
+Type=Link
+URL[$e]=file://$HOME/code/sea/toolchain/newlib-2.0.0/newlib/libc/sys/linux/sys/socket.h
+X-KDE-LastOpenedWith=kwrite

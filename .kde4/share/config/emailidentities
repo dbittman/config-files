@@ -1,0 +1,15 @@
+[$Version]
+update_info=kmail.upd:3.3-move-identities-to-own-file,kmail.upd:3.3-aegypten-emailidentities-split-sign-encr-keys
+
+[General]
+Default Identity=729051912
+
+[Identity #0]
+Default Domain=bourbon
+Dictionary=English (United States of America)
+Disable Fcc=false
+Identity=Unnamed
+Image Location=
+Inline Signature=
+Signature Enabled=false
+uoid=729051912

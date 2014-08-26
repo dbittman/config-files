@@ -1,0 +1,11 @@
+[AddTransportDialog]
+Size=300,200
+
+[Alarms]
+CalendarsLastChecked=2014,8,26,13,18,19
+
+[General]
+Autostart=true
+Enabled=true
+Position=1743,547
+Reminders=0

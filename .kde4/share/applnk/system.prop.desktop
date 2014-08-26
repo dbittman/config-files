@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=system.prop
+Type=Link
+URL[$e]=file://$HOME/cm10/device/htc/ace/system.prop
+X-KDE-LastOpenedWith=kwrite

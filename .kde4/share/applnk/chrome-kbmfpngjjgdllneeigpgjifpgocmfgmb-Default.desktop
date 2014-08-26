@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Reddit Enhancement Suite
+Exec=/usr/bin/chromium --profile-directory=Default --app-id=kbmfpngjjgdllneeigpgjifpgocmfgmb
+Icon=chrome-kbmfpngjjgdllneeigpgjifpgocmfgmb-Default
+NoDisplay=true
+StartupWMClass=crx_kbmfpngjjgdllneeigpgjifpgocmfgmb
+OnlyShowIn=Old;

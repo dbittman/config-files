@@ -1,0 +1,53 @@
+[KFileDialog Settings]
+Height 1080=450
+Recent Files[$e]=$HOME/Downloads/jl.jpg,$HOME/Downloads/jl.jpg
+Recent URLs[$e]=$HOME/Downloads/,$HOME/code/,$HOME/code/arm-kernel/,$HOME/Documents/writ2/,$HOME/code/sea/toolchain/newlib-sys-seaos/
+Width 1920=720
+
+[MainWindow]
+Height 1080=559
+Height 900=559
+State=AAAA/wAAAAD9AAAAAAAAA7gAAAH6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1440=952
+Width 1920=952
+
+[Notification Messages]
+ConfirmTrash=true
+
+[Print]
+PrintHeight=20.56
+
+[Recent Files]
+File1[$e]=$HOME/Desktop/download_mms1/IMG_6154.jpg
+File10[$e]=$HOME/Downloads/dotfiles-master/screenshot.png
+File2[$e]=$HOME/Desktop/download_mms1/IMG_6319.jpg
+File3[$e]=$HOME/Desktop/download_mms1/IMG_6970.jpg
+File4[$e]=$HOME/Desktop/download_mms1/IMG_7050.jpg
+File5[$e]=$HOME/Desktop/download_mms1/IMG_7586.jpg
+File6[$e]=$HOME/Desktop/download_mms1/IMG_7825.jpg
+File7[$e]=$HOME/Desktop/download_mms1/IMG_8659.jpg
+File8[$e]=$HOME/Desktop/download_mms1/IMG_8921.jpg
+File9[$e]=$HOME/Downloads/dotfiles-master/why_bspwm.gif
+Name1[$e]=IMG_6154.jpg
+Name10[$e]=screenshot.png
+Name2[$e]=IMG_6319.jpg
+Name3[$e]=IMG_6970.jpg
+Name4[$e]=IMG_7050.jpg
+Name5[$e]=IMG_7586.jpg
+Name6[$e]=IMG_7825.jpg
+Name7[$e]=IMG_8659.jpg
+Name8[$e]=IMG_8921.jpg
+Name9[$e]=why_bspwm.gif
+
+[SideBar-BrowseMode]
+IsVisible=false
+
+[SideBar-FullScreenMode]
+IsVisible=false
+
+[SideBar-ViewMode]
+IsVisible=true
+
+[ThumbnailView]
+ThumbnailSize=88

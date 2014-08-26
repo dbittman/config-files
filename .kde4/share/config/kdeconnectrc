@@ -1,0 +1,13 @@
+[myself]
+id=e4dda847_7988_43ad_b826_0580382ec689
+privateKeyPath=/home/piranha/.kde4/share/apps/kdeconnect/key.pem
+
+[trusted_devices][617506779b0d90db]
+deviceName=Nexus 5
+deviceType=phone
+publicKey=-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4FbMV0fCqUO61/FwWj0U\nKG3wWj9TXz2I5uPeioLAPv+iLVwwpuz3Is/TETxlX896ROoD2A3HFzEb522tiSeV\nA/IGwiNS/LZnMQJZQ2c4I3HfW87GZgaK2ChlMdEqf+Fc6R409UxiQz+Nlmv/G3jX\n/nsY58ZU7c+wiexh4zk28payE8f6VX2biMdI5MRCAzP9BKTK2Tgk5WuNeNauObOs\nNYJRghNk/7of7D7LMMKYIb97uUMzowh7niN7Y/Oe7assIikBLdlNS4v9+PBQu1fS\n+PV/6lw9ZSG4l/Dq+bHvA2YoGts/BQTy+h3R+oWNDSNL0Z4ct3jnjIq2RgqguqQr\nRwIDAQAB\n-----END PUBLIC KEY-----\n
+
+[trusted_devices][62b07a91201e7062]
+deviceName=Nexus 5
+deviceType=phone
+publicKey=-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApcEoIrhQVNVZZEB+v28l\nL8jHuie3eV54GBmgmRjZYYcOcELcx02ZZjxnvh3SjHrLDe8YMLi7CYtS6R7WXtga\nz3hwhrk1tXprslOnISIffrv6lLHsX31ECFsTkRNWeX2vDzrzeS67IN7MchHkLfAA\n/tDmQ4rQRESV4wwVDoW68+2Y9yOg4E2PBw1Znvzg7HDd6HkDnQNvCGgYa3rmOkhe\nMYL7mZBDA5PJt7414KaQC4FJ1vvpwDnacWJGQaJmXJUPmbOmj5TzGkhcTy2e7E+d\n7ZUaeeibYC5BWRRHvTZIIrtdyIfRhtf44vRZ5PQEFxB3mxa1XE1dlycF5fw/VFU5\nVQIDAQAB\n-----END PUBLIC KEY-----\n

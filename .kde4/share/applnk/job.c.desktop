@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-csrc
+Name=job.c
+Type=Link
+URL[$e]=file://$HOME/code/sea/apps/porting/ported/make-3.82/job.c
+X-KDE-LastOpenedWith=kwrite

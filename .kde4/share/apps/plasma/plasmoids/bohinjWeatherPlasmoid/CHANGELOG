@@ -1,0 +1,26 @@
+==Version 1.5==
+*Added weather forecast from Google
+*Added option to configure refresh interfal for each tab separately
+*Bugfixes
+*Better behaviour where there is no internet connection (v. 1.5.2)
+
+==Version 1.4==
+*Cam and flow images can now be shown full size in a separate window
+*More interesting data for Bohinjska Češnjica and Bohinjska Bistrica
+*Fixed issue with incorrectly updating Cam and Flow views
+
+==Version 1.3==
+*Added Bohinjska Češnjica and Vogel weather data source
+*Added all Vogel webcams, and Bohinjska Češnjica webcam
+*Bugfixes
+*Flexible label system
+
+==Version 1.2==
+*Added river flow data for Sava Bohinjka
+
+==Version 1.1==
+*Added more camera images
+*Added Bohinjska Bistrica weather data source
+
+==Version 1.0==
+*Initial Release

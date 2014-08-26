@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-csrc
+Name=res_send.c
+Type=Link
+URL[$e]=file://$HOME/code/sea/toolchain/newlib-2.0.0/newlib/libc/sys/linux/net/res_send.c
+X-KDE-LastOpenedWith=kwrite

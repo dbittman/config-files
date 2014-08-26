@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=spade-perf-test_defconfig
+Type=Link
+URL[$e]=file://$HOME/cm10/kernel/htc/htc7x30-3.0/arch/arm/configs/spade-perf-test_defconfig
+X-KDE-LastOpenedWith=kwrite

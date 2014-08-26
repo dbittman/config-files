@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-makefile
+Name=cm.mk
+Type=Link
+URL[$e]=file://$HOME/cm10/device/htc/ace/cm.mk
+X-KDE-LastOpenedWith=kwrite

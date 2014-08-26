@@ -1,0 +1,63 @@
+[1]
+Active=1
+Sessions=1
+
+[2]
+Active=1
+Sessions=2
+
+[3]
+Active=1
+Sessions=3
+
+[Number]
+NumberOfSessions=3
+NumberOfWindows=3
+
+[Session1]
+Encoding=UTF-8
+LocalTab=%d : %n
+Profile[$e]=$HOME/.kde4/share/apps/konsole/Shell.profile
+RemoteTab=(%u) %H
+SessionGuid={c90f531c-5152-4000-8a75-054b86c83c6f}
+WorkingDir[$e]=$HOME/Downloads/ATL
+
+[Session2]
+Encoding=UTF-8
+LocalTab=%d : %n
+Profile[$e]=$HOME/.kde4/share/apps/konsole/Shell.profile
+RemoteTab=(%u) %H
+SessionGuid={f4ed1f99-4515-4000-958c-65a10937eafa}
+WorkingDir[$e]=$HOME
+
+[Session3]
+Encoding=UTF-8
+LocalTab=%d : %n
+Profile[$e]=$HOME/.kde4/share/apps/konsole/Shell.profile
+RemoteTab=(%u) %H
+SessionGuid={77bc58e9-0175-4000-9573-7bc312faa8cc}
+WorkingDir[$e]=$HOME
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+Height 1080=673
+MenuBar=Disabled
+ObjectName=MainWindow#2
+State=AAAA/wAAAAD9AAAAAAAABaAAAAKhAAAABAAAAAQAAAAIAAAACPwAAAAA
+Width 1920=1440
+
+[WindowProperties2]
+ClassName=Konsole::MainWindow
+Height 1080=673
+MenuBar=Disabled
+ObjectName=MainWindow#3
+State=AAAA/wAAAAD9AAAAAAAABaAAAAKhAAAABAAAAAQAAAAIAAAACPwAAAAA
+Width 1920=1440
+
+[WindowProperties3]
+ClassName=Konsole::MainWindow
+Height 1024=914
+MenuBar=Disabled
+ObjectName=MainWindow#4
+State=AAAA/wAAAAD9AAAAAAAAAnwAAAOSAAAABAAAAAQAAAAIAAAACPwAAAAA
+Width 1280=636

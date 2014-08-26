@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-csrc
+Name=gcc.c
+Type=Link
+URL[$e]=file://$HOME/code/sea/apps/porting/ported/gcc-4.7.3/gcc/gcc.c
+X-KDE-LastOpenedWith=kwrite

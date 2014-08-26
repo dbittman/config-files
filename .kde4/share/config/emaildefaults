@@ -1,0 +1,10 @@
+[Defaults]
+Profile=Default
+
+[PROFILE_Default]
+EmailAddress=
+EmailClient=/usr/bin/chromium
+FullName=
+Organization=
+ReplyAddr=
+ServerType=

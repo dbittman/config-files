@@ -1,0 +1,14 @@
+[PlasmaViews][2]
+panelAutoHide=true
+
+[ViewIds]
+1=1
+2=2
+
+[stopSuppressingScreenPowerManagement]
+__file=
+cookie=-1
+
+[stopSuppressingSleep]
+__file=
+cookie=-1

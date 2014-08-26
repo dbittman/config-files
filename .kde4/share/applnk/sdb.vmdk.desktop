@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=virtualbox-vmdk
+Name=sdb.vmdk
+Type=Link
+URL[$e]=file://$HOME/sdb.vmdk
+X-KDE-LastOpenedWith=kfilemodule

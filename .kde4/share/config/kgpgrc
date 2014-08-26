@@ -1,0 +1,29 @@
+[Editor]
+Height 1080=292
+State=AAAA/wAAAAD9AAAAAAAAAr4AAADcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=702
+
+[GPG Settings]
+gpg_config_path[$e]=$HOME/.gnupg/gpg.conf
+
+[General Options]
+First run=false
+
+[KFileDialog Settings]
+Height 1080=450
+Recent Files[$e]=darrell.asc,$HOME/Documents/k1.asc
+Recent URLs[$e]=$HOME/Downloads/,$HOME/code/,$HOME/code/arm-kernel/,$HOME/Documents/writ2/
+Width 1920=720
+
+[MainWindow]
+Height 1080=556
+State=AAAA/wAAAAD9AAAAAAAAA7EAAAHiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=945
+
+[Servers]
+Server_List=pgp.mit.edu,hkp://wwwkeys.pgp.net,hkp://pgp.dtype.org,hkp://search.keyserver.net,hkp://subkeys.pgp.net,hkp://wwwkeys.pgp.net,hkp://wwwkeys.us.pgp.net
+
+[TipOfDay]
+RunOnStart=false

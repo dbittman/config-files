@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-csrc
+Name=proc.c
+Type=Link
+URL[$e]=file://$HOME/code/sea/toolchain/newlib-sys-seaos/proc.c
+X-KDE-LastOpenedWith=kwrite

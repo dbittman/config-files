@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-csrc
+Name=fsck.c
+Type=Link
+URL[$e]=file://$HOME/code/sea/apps/porting/ported/e2fsprogs-1.42.2/misc/fsck.c
+X-KDE-LastOpenedWith=kwrite

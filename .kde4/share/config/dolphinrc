@@ -1,0 +1,30 @@
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+Version=200
+ViewPropsTimestamp=2013,5,15,10,19,20
+
+[KPropertiesDialog]
+Height 1080=394
+Height 900=394
+Width 1440=427
+Width 1920=427
+
+[MainWindow]
+Height 1024=559
+Height 1080=559
+Height 900=559
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC6AAACD/wCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAQA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAgAAACDwAAADwA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAABAD///8AAAADAAADuAAAALj8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAADuAAAAAQA////AAAC+AAAAg8AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1280=952
+Width 1440=952
+Width 1920=952
+
+[Open-with settings]
+CompletionMode=5
+History=kwrite,ark,okular,java -jar

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=spade_defconfig
+Type=Link
+URL[$e]=file://$HOME/cm10/kernel/htc/htc7x30-3.0/arch/arm/configs/spade_defconfig
+X-KDE-LastOpenedWith=kwrite

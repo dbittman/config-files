@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-makefile
+Name=BoardConfig.mk
+Type=Link
+URL[$e]=file://$HOME/cm10/device/htc/ace/BoardConfig.mk
+X-KDE-LastOpenedWith=kwrite

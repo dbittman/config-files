@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=inode-directory
+Name=My Games
+Type=Link
+URL[$e]=file://$HOME/My%20Games
+X-KDE-LastOpenedWith=dolphin

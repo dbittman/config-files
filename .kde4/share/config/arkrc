@@ -1,0 +1,45 @@
+[AddDialog]
+LastMimeType=application/x-xz-compressed-tar
+
+[Extraction]
+openDestinationFolderAfterExtraction=true
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[KFileDialog Settings]
+Height 1080=450
+Recent Files[$e]=hw1-db.tar.gz,$HOME/EXTD/Pictures.tar.xz,$HOME/hw1-db.tar.gz
+Recent URLs[$e]=$HOME/Downloads/,$HOME/code/,$HOME/code/arm-kernel/,$HOME/Documents/writ2/,$HOME/code/sea/toolchain/newlib-sys-seaos/,$HOME/EXTD/
+Width 1920=720
+
+[MainWindow]
+Height 1024=480
+Height 1080=480
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGUAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=640
+Width 1920=640
+splitterSizes=423,211
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/linux-1.0.tar.xz
+File2[$e]=$HOME/Downloads/Civ5WorkaroundFontsForIntel965VideoCard.zip
+File3[$e]=$HOME/Downloads/libvirt-1.0.0.tar.gz
+File4[$e]=$HOME/Downloads/uClibc-0.9.33.tar.xz
+File5[$e]=$HOME/Downloads/infoaddict__v_22.zip
+File6[$e]=$HOME/Downloads/dotfiles-master.zip
+File7[$e]=$HOME/Downloads/src-refs-heads-master-third_party-widevine.tar.gz
+Name1[$e]=linux-1.0.tar.xz
+Name2[$e]=Civ5WorkaroundFontsForIntel965VideoCard.zip
+Name3[$e]=libvirt-1.0.0.tar.gz
+Name4[$e]=uClibc-0.9.33.tar.xz
+Name5[$e]=infoaddict__v_22.zip
+Name6[$e]=dotfiles-master.zip
+Name7[$e]=src-refs-heads-master-third_party-widevine.tar.gz
+
+[Viewer]
+Height 1024=400
+Height 1080=677
+Width 1280=560
+Width 1920=1272

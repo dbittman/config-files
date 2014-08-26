@@ -1,0 +1,150 @@
+[BackgroundConfigDialog]
+Height 1080=719
+Height 900=719
+Width 1440=663
+Width 1920=761
+
+[DownloadDialog Settings]
+Height 1080=400
+Width 1920=700
+
+[KFileDialog Settings]
+Height 1080=450
+Height 900=437
+Recent Files[$e]=P1040079.JPG,$HOME/Documents/_pics/10531199_10204499535835176_830317931_n.jpg,$HOME/Documents/pics/1495198_10151899751462087_823215537_o.jpg
+Recent URLs[$e]=$HOME/Downloads/,$HOME/code/,$HOME/code/arm-kernel/,$HOME/Documents/pics/,$HOME/Documents/_pics/
+Width 1440=720
+Width 1920=720
+
+[KPropertiesDialog]
+Height 1080=375
+Height 900=351
+Width 1440=401
+Width 1920=427
+
+[PlasmaViews][1]
+panelVisibility=0
+
+[PlasmaViews][1][Horizontal1440]
+offset=0
+
+[PlasmaViews][1][Horizontal1920]
+offset=0
+
+[PlasmaViews][1][Sizes]
+lastsize=1920
+
+[PlasmaViews][1][Sizes][Horizontal1280]
+max=1280,27
+min=1280,27
+offset=0
+size=1280,27
+
+[PlasmaViews][1][Sizes][Horizontal1366]
+max=1366,27
+min=1366,27
+offset=0
+size=1366,27
+
+[PlasmaViews][1][Sizes][Horizontal1440]
+max=1440,27
+min=1440,27
+offset=0
+size=1440,27
+
+[PlasmaViews][1][Sizes][Horizontal1920]
+max=1920,27
+min=1920,27
+offset=0
+size=1920,27
+
+[PlasmaViews][4]
+panelVisibility=0
+
+[PlasmaViews][4][Horizontal1440]
+offset=0
+
+[PlasmaViews][4][Horizontal1920]
+offset=0
+
+[PlasmaViews][4][Sizes]
+lastsize=1440
+
+[PlasmaViews][4][Sizes][Horizontal1440]
+max=-1,-1
+min=-1,-1
+offset=0
+size=1920,27
+
+[PlasmaViews][4][Sizes][Horizontal1920]
+max=1920,27
+min=1920,27
+offset=0
+size=1920,27
+
+[PlasmaViews][5]
+panelVisibility=0
+
+[PlasmaViews][5][Horizontal1280]
+offset=0
+
+[PlasmaViews][5][Sizes]
+lastsize=1280
+
+[PlasmaViews][5][Sizes][Horizontal1280]
+max=1920,27
+min=1920,27
+offset=0
+size=1280,27
+
+[PlasmaViews][5][Sizes][Vertical1024]
+max=27,1024
+min=27,1024
+offset=0
+size=27,1024
+
+[Updates]
+performed=/usr/share/apps/plasma-desktop/updates/systray-to-notifications-widget.js,/usr/share/apps/plasma-desktop/updates/set-hidden-single-vd-pager.js,/usr/share/apps/plasma-desktop/updates/addShowActivitiesManagerPlasmoid.js
+
+[ViewIds]
+1=1
+23=4
+37=5
+59=3
+60=4
+61=2
+
+[configureNotification]
+__file=
+appRealName=kdeconnect
+
+[invokeAction]
+__file=
+actionId=1
+predicate=test-predicate-openinwindow.desktop
+
+[resume]
+__file=
+
+[stop]
+__file=
+
+[stopSuppressingScreenPowerManagement]
+__file=
+cookie=-1
+
+[stopSuppressingSleep]
+__file=
+cookie=-1
+
+[suspend]
+__file=
+
+[unmount]
+__file=
+
+[updateFreespace]
+__file=
+
+[userClosed]
+__file=

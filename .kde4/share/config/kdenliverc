@@ -1,0 +1,113 @@
+[KFileDialog Settings]
+Height 1080=450
+Recent Files[$e]=50_great_james_bond_quotes_sean_connery-0t1_usmB30s.mp4,$HOME/code/sea/50_great_james_bond_quotes_sean_connery-0t1_usmB30s.mp4
+Recent URLs[$e]=$HOME/Downloads/,$HOME/code/,$HOME/code/arm-kernel/,$HOME/code/sea/
+Width 1920=720
+
+[MainWindow]
+Height 1080=658
+State=AAAA/wAAAAD9AAAAAQAAAAIAAASQAAAA9vwBAAAAC/wAAAAAAAABBgAAAKsA////+gAAAAABAAAAAvsAAAAYAHAAcgBvAGoAZQBjAHQAXwB0AHIAZQBlAQAAAAD/////AAAAqwD////7AAAAGABuAG8AdABlAHMAXwB3AGkAZABnAGUAdAEAAAAA/////wAAAFEA/////AAAAQwAAAHwAAABlgD////6AAAAAQEAAAAD+wAAABYAZQBmAGYAZQBjAHQAXwBsAGkAcwB0AQAAAAD/////AAAAiAD////7AAAAGABlAGYAZgBlAGMAdABfAHMAdABhAGMAawEAAAAA/////wAAAFEA////+wAAABQAdAByAGEAbgBzAGkAdABpAG8AbgEAAAAA/////wAAAZYA////+wAAABYAVgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABKwD////7AAAAEABXAGEAdgBlAGYAbwByAG0AAAAAAP////8AAAChAP////sAAAAUAFIARwBCACAAUABhAHIAYQBkAGUAAAAAAP////8AAACeAP////sAAAASAEgAaQBzAHQAbwBnAHIAYQBtAAAAAAD/////AAABLgD////7AAAAFgBhAHUAZABpAG8AcwBpAGcAbgBhAGwAAAAAAP////8AAABRAP////sAAAAaAEEAdQBkAGkAbwBTAHAAZQBjAHQAcgB1AG0AAAAAAP////8AAAFnAP////sAAAAWAFMAcABlAGMAdAByAG8AZwByAGEAbQAAAAAA/////wAAAWMA/////AAAAwIAAAGOAAAA1QD////6AAAAAQEAAAAD+wAAABgAYwBsAGkAcABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAABRAP////sAAAAeAHAAcgBvAGoAZQBjAHQAXwBtAG8AbgBpAHQAbwByAQAAAAD/////AAAAUQD////7AAAAHAByAGUAYwBvAHIAZABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAADVAP////sAAAAYAHUAbgBkAG8AXwBoAGkAcwB0AG8AcgB5AAAAAAD/////AAAAUQD///8AAASQAAABRgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZQB4AHQAcgBhAFQAbwBvAGwAQgBhAHIBAAACEv////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1920=1168
+
+[Project Tree]
+columns=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x0c\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\x02\x00\x00\x00d\x00\x00\x01\x06\x00\x00\x00\x04\x00\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00¢\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00
+
+[Recent Dirs]
+clipfolder[$e]=file://$HOME/code/sea/,$HOME/Documents
+
+[Scope_AudioSpectrum]
+autoRefresh=true
+dBmax=0
+dBmin=-70
+freqMax=0
+realtime=false
+showMax=true
+trackMouse=true
+windowFunction=0
+windowSize=0
+
+[Scope_Histogram]
+autoRefresh=true
+bEnabled=true
+gEnabled=true
+rEnabled=true
+realtime=false
+rec601=false
+sEnabled=false
+yEnabled=true
+
+[Scope_RGB Parade]
+autoRefresh=true
+axis=false
+gradref=false
+paintmode=0
+realtime=false
+
+[Scope_Spectrogram]
+autoRefresh=true
+dBmax=0
+dBmin=-70
+drawGrid=true
+freqMax=0
+highlightPeaks=true
+realtime=false
+trackMouse=true
+windowFunction=0
+windowSize=0
+
+[Scope_Vectorscope]
+75PBox=false
+autoRefresh=true
+axis=false
+backgroundmode=0
+colorspace_ypbpr=false
+gain=1
+iqlines=false
+paintmode=0
+realtime=false
+
+[Scope_Waveform]
+autoRefresh=true
+paintmode=0
+realtime=false
+rec601=false
+
+[Scope_audioSignal]
+autoRefresh=true
+realtime=false
+
+[capture]
+decklink_device_found=false
+decklink_extension=mov
+decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
+grab_extension=mkv
+grab_parameters=-vcodec libx264 -preset fast -threads 0
+v4l_extension=mpg
+v4l_parameters=acodec=mp2 ab=128k ar=48000 vcodec=mpeg2video minrate=0 vb=4000k
+
+[env]
+defaultimageapp=/bin/gimp
+defaultplayerapp=smplayer
+ffmpegpath[$e]=/bin/ffmpeg
+ffplaypath[$e]=/bin/ffplay
+mltpath[$e]=/usr/share/mlt/profiles/
+rendererpath[$e]=/usr/bin/melt
+
+[project]
+proxyextension=ts
+proxyparams=-f mpegts -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 640x360 -vb 700k
+
+[unmanaged]
+audiocodecs=comfortnoise,s302m,aac,ac3,ac3_fixed,alac,dca,eac3,flac,g723_1,mp2,mp2fixed,nellymoser,real_144,sonic,sonicls,tta,vorbis,wavpack,wmav1,wmav2,pcm_alaw,pcm_f32be,pcm_f32le,pcm_f64be,pcm_f64le,pcm_mulaw,pcm_s8,pcm_s8_planar,pcm_s16be,pcm_s16be_planar,pcm_s16le,pcm_s16le_planar,pcm_s24be,pcm_s24daud,pcm_s24le,pcm_s24le_planar,pcm_s32be,pcm_s32le,pcm_s32le_planar,pcm_u8,pcm_u16be,pcm_u16le,pcm_u24be,pcm_u24le,pcm_u32be,pcm_u32le,roq_dpcm,adpcm_adx,g722,g726,adpcm_ima_qt,adpcm_ima_wav,adpcm_ms,adpcm_swf,adpcm_yamaha,libgsm,libgsm_ms,libmp3lame,libopencore_amrnb,libopus,libspeex,libvorbis
+current_profile=atsc_1080p_60
+default_profile=atsc_1080p_60
+monitor_audio=false
+producerslist=slowmotion,pango,pixbuf,qimage,qtext,kdenlivetitle,ladspa.1047,ladspa.1050,decklink,sdl_image,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,blipflash,count,xml,xml-string,xml-nogl,avformat,avformat-novalidate,abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,framebuffer,pgm
+project_display_ratio=1.77777777777778
+project_fps=60
+supportedformats=a64,ac3,adts,adx,aiff,amr,asf,ass,ast,asf_stream,au,avi,avm2,bit,caf,cavsvideo,crc,data,daud,dirac,dnxhd,dts,dv,eac3,f4v,ffm,ffmetadata,filmstrip,flac,flv,framecrc,framemd5,g722,g723_1,gif,gxf,h261,h263,h264,hds,hevc,hls,ico,ilbc,image2,image2pipe,ipod,ircam,ismv,ivf,jacosub,latm,lrc,m4v,md5,matroska,matroska,microdvd,mjpeg,mlp,mmf,mov,mp2,mp3,mp4,mpeg,vcd,mpeg1video,dvd,svcd,mpeg2video,vob,mpegts,mpjpeg,mxf,mxf_d10,null,nut,oga,ogg,oma,opus,alaw,mulaw,f64be,f64le,f32be,f32le,s32be,s32le,s24be,s24le,s16be,s16le,s8,u32be,u32le,u24be,u24le,u16be,u16le,u8,psp,rawvideo,rm,roq,rso,rtp,rtsp,sap,segment,stream_segment\\,ssegment,smjpeg,smoothstreaming,sox,spdif,speex,srt,swf,tee,3g2,3gp,mkvtimestamp_v2,truehd,uncodedframecrc,vc1,vc1test,voc,w64,wav,webm,webm_dash_manifest,webvtt,wtv,wv,yuv4mpegpipe,alsa,fbdev,oss,pulse,sdl,v4l2
+videocodecs=a64multi,a64multi5,alias_pix,amv,asv1,asv2,avrp,avui,ayuv,bmp,cinepak,cljr,dnxhd,dpx,dvvideo,ffv1,ffvhuff,flashsv,flashsv2,flv,gif,h261,h263,h263p,huffyuv,jpeg2000,jpegls,ljpeg,mjpeg,mpeg1video,mpeg2video,mpeg4,msmpeg4v2,msmpeg4,msvideo1,pam,pbm,pcx,pgm,pgmyuv,png,ppm,prores,prores_aw,prores_ks,qtrle,r10k,r210,rawvideo,roqvideo,rv10,rv20,sgi,snow,sunrast,svq1,targa,tiff,utvideo,v210,v308,v408,v410,wmv1,wmv2,xbm,xface,xwd,y41p,yuv4,zlib,zmbv,libopenjpeg,libschroedinger,libtheora,libvpx,libvpx-vp9,libx264,libx264rgb,libx265,libxvid
+
+[version]
+version=0.9.8

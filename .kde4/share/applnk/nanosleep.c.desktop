@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-csrc
+Name=nanosleep.c
+Type=Link
+URL[$e]=file://$HOME/code/sea/apps/porting/ported/coreutils-8.16/lib/nanosleep.c
+X-KDE-LastOpenedWith=kwrite

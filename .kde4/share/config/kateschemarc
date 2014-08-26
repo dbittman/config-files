@@ -1,0 +1,15 @@
+[KDE]
+Font=Monospace,10,-1,2,50,0,0,0,0,0
+dummy=prevent-empty-group
+
+[New Schema]
+dummy=prevent-empty-group
+
+[Normal]
+dummy=prevent-empty-group
+
+[Solarized (dark)]
+dummy=prevent-empty-group
+
+[Vim (dark)]
+dummy=prevent-empty-group

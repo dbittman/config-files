@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Value=1.0
+Type=Application
+Name=Jamestown
+GenericName=Jamestown
+Comment=A neo-colonial shoot-em-up
+Icon=/home/piranha/jamestown/jamestown.png
+Exec="/home/piranha/jamestown/Jamestown"
+Categories=Game
+Path=/home/piranha/jamestown
+
+OnlyShowIn=Old;

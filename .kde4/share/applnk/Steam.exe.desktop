@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-x-ms-dos-executable
+Name=Steam.exe
+Type=Link
+URL[$e]=file://$HOME/.wine/drive_c/Program%20Files%20(x86)/Steam/Steam.exe
+X-KDE-LastOpenedWith=wine

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=inode-directory
+Name=cm10
+Type=Link
+URL[$e]=file://$HOME/cm10
+X-KDE-LastOpenedWith=dolphin

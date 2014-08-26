@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-x-shellscript
+Name=boot
+Type=Link
+URL[$e]=file://$HOME/code/sea/data/etc/rc/boot
+X-KDE-LastOpenedWith=kwrite

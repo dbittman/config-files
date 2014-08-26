@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-csrc
+Name=pex-common.c
+Type=Link
+URL[$e]=file://$HOME/code/sea/apps/porting/ported/gcc-4.7.3/libiberty/pex-common.c
+X-KDE-LastOpenedWith=kwrite

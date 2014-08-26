@@ -1,0 +1,22 @@
+[GENERAL]
+delay=0
+filename[$e]=file://$HOME/f9.png
+includeDecorations=false
+includePointer=false
+mode=2
+
+[KFileDialog Settings]
+Height 1024=450
+Height 1080=450
+Height 900=437
+Recent Files[$e]=$HOME/snapshot175.png,$HOME/f8.png,$HOME/f7.png,$HOME/f6.png,$HOME/f5.png,$HOME/f4.png,$HOME/snapshot178.png,$HOME/snapshot177.png,$HOME/snapshot176.png
+Recent URLs[$e]=$HOME/Downloads/,$HOME/code/,$HOME/code/arm-kernel/
+Width 1280=720
+Width 1440=720
+Width 1920=720
+
+[MainWindow]
+Height 1080=499
+Height 900=499
+Width 1440=433
+Width 1920=405

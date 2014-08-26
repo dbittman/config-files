@@ -1,0 +1,16 @@
+# File created by KDE Gtk Config
+# Configs for GTK2 programs 
+
+include "/home/piranha/.themes/FlatStudioCustom/gtk-2.0/gtkrc"
+style "user-font" 
+{
+	font_name="Sans Serif "
+}
+widget_class "*" style "user-font"
+gtk-font-name="Sans Serif  10"
+gtk-theme-name="FlatStudioCustom"
+gtk-icon-theme-name="oxygen"
+gtk-fallback-icon-theme="oxygen"
+gtk-toolbar-style=GTK_TOOLBAR_ICONS
+gtk-menu-images=0
+gtk-button-images=0

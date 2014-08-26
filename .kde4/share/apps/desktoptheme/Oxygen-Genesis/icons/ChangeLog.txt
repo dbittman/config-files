@@ -1,0 +1,15 @@
+Revision 3:
+Added application icons for 4.8: amarok, kget, konversation, konv_message,
+kopete, kopete-offline, korgac, ktorrent, printer, quassel, quassel-message,
+quassel-inactive.
+
+Revision 2:
+Added kpackagekit.svgz for Apper, based on the following Oxygen icons:
+kpackagekit-updates = apps/system-software-update
+kpackagekit-important = apps/system-software-update + emblems/emblem-important
+kpackagekit-security = apps/system-software-update + status/security-medium
+kpackagekit-inactive = status/security-high
+
+Revision 1:
+First release. Adapted all the Oxygen icons to the technical requirements for
+Plasma system tray icons.

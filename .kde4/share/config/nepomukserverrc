@@ -1,0 +1,16 @@
+[Baloo]
+migrated=true
+
+[Basic Settings]
+Start Nepomuk=false
+
+[Service-nepomukfileindexer]
+autostart=false
+
+[Service-nepomuktelepathyservice]
+autostart=false
+
+[main Settings]
+Maximum memory=20
+Storage Dir[$e]=$HOME/.kde4/share/apps/nepomuk/repository/main/
+Used Soprano Backend=virtuosobackend

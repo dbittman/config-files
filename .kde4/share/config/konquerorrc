@@ -1,0 +1,25 @@
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[KFileDialog Settings]
+Height 1080=450
+Recent Files[$e]=$HOME/Documents,$HOME/Documents
+Recent URLs[$e]=$HOME/Downloads/,$HOME/code/,$HOME/code/arm-kernel/
+Width 1920=720
+
+[KPropertiesDialog]
+Height 1080=375
+Width 1920=405
+
+[Notification Messages]
+Restore session when konqueror didn't close correctly=false
+
+[SearchBar]
+CompletionMode=5
+CurrentEngine=google
+History list=\\0
+Mode=1
+SuggestionEnabled=true
+
+[Undo]
+Number of Closed Windows=19

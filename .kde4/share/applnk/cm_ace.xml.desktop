@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-xml
+Name=cm_ace.xml
+Type=Link
+URL[$e]=file://$HOME/cm10/.repo/local_manifests/cm_ace.xml
+X-KDE-LastOpenedWith=kwrite

@@ -1,0 +1,11 @@
+[General]
+exclude filters=autom4te,*.rcore,CTestTestfile.cmake,*.o,*.omf,.hg,*.m4,*.orig,moc_*.cpp,conftest,.xsession-errors*,CMakeTmpQmake,*.tmp,po,.svn,.histfile.*,lzo,.bzr,.git,litmain.sh,cmake_install.cmake,CMakeFiles,*.pc,*.nvram,*.elc,*.la,CMakeCache.txt,confdefs.h,*.gmo,*.csproj,*.rej,config.status,lost+found,confstat,*.pyc,_darcs,CVS,*.part,libtool,*.aux,*.po,CMakeTmp,Makefile.am,*.lo,*.loT,*~,*.moc,*.vm*,*.class,core-dumps
+exclude filters version=2
+exclude folders[$e]=
+exclude mimetypes=audio/*,image/*,video/*,application/pdf,application/vnd.oasis.opendocument.text,application/vnd.oasis.opendocument.spreadsheet,application/vnd.oasis.opendocument.presentation,application/vnd.oasis.opendocument.graphics,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-powerpoint,application/vnd.openxmlformats-officedocument.presentationml.presentation,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/css,text/x-c++src,text/x-c++hdr,text/x-csrc,text/x-chdr,text/x-python,text/x-assembly,text/x-java,text/x-objsrc,text/x-ruby,text/x-scheme,text/x-pascal,text/x-yacc,text/x-sed,text/x-haskell,text/asp,application/x-awk,application/x-cgi,application/x-csh,application/x-java,application/x-javascript,application/x-perl,application/x-php,application/x-python,application/x-sh,application/x-tex
+folders[$e]=$HOME
+index hidden folders=false
+
+[RemovableMedia]
+ask user=false
+index newly mounted=false

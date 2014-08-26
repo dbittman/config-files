@@ -1,0 +1,79 @@
+[$Version]
+update_info=korganizer.upd:korganizer_3.4_GroupwareCleanup,korganizer.upd:korganizer_3.4_WebExport,korganizer.upd:korganizer_3.4_FilterAction,korganizer.upd:korganizer_3.4_HolidayPlugin,korganizer.upd:korganizer_4.3_ShowTodos,korganizer.upd:korganizer_4.4_MoveFreeBusy
+
+[AgentTypeDialog]
+Size=460,320
+
+[Calendar]
+Default Calendar=-1
+
+[CollectionTreeView]
+Expansion=c37
+HorizontalScroll=0
+VerticalScroll=0
+
+[General]
+CalendarFilters=
+Current Filter=
+Current View=Month
+Custom Categories=Appointment,Birthday,Business,Education,Holiday,Meeting,Miscellaneous,Personal,Phone Call,Special Occasion,Travel,Vacation
+Range Mode=5
+
+[GlobalCollectionSelection]
+Current=x-1
+Selection=c39,c40,c41
+
+[GlobalCollectionView]
+Expansion=c37
+HorizontalScroll=0
+VerticalScroll=0
+
+[IncidenceDialog]
+Size=549,500
+
+[Internal Settings]
+DefaultResourceColorSeed=6
+
+[KOrganizer Geometry]
+Separator1=424,681
+Separator2=153,0,235,233
+
+[MainWindow]
+Height 1024=580
+Height 1080=707
+Height 900=580
+State=AAAA/wAAAAD9AAAAAAAABFcAAAH6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAQAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAJABrAG8AcgBnAGEAbgBpAHoAZQByAF8AdABvAG8AbABiAGEAcgEAAAKs/////wAAAAAAAAAAAAAAIABzAGMAaABlAGQAdQBsAGUAXwB0AG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAAAAAAcAGYAaQBsAHQAZQByAF8AdABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=1111
+Width 1440=1111
+Width 1920=1111
+
+[Settings]
+DateNavigatorVisible=true
+EventViewerVisible=true
+ResourceViewVisible=true
+TodoViewVisible=false
+
+[Sidebar Todo View]
+ColumnOrder=0,1,2,3,4,5,6,7,8
+ColumnVisibility=true,false,false,false,true,true,false,false,false
+ColumnWidths=94,0,0,0,101,93,0,0,0
+SortAscending=1
+SortColumn=0
+
+[Timescale]
+Timescale Timezones=
+
+[TipOfDay]
+RunOnStart=false
+
+[TodoTreeViewStateS]
+Current=x-1
+Expansion=
+HorizontalScroll=0
+Selection=
+VerticalScroll=0
+
+[Views]
+Separator AgendaView=144,791
+ShownDatesCount=1

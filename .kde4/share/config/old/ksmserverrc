@@ -1,0 +1,46 @@
+[General]
+screenCount=1
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10c4dee372000136863822100000005380000
+clientId2=10c4dee372000136863822700000005380021
+clientId3=10c4dee372000136924099400000004530006
+clientId4=10c4dee372000136926284000000004530013
+clientId5=10c4dee372000137055327700000004220010
+count=5
+discardCommand1[$e]=rm,$HOME/.kde4/share/config/session/kwin_10c4dee372000136863822100000005380000_1370565619_244303
+discardCommand2[$e]=\\0
+discardCommand3[$e]=rm,$HOME/.kde4/share/config/session/kmix_10c4dee372000136924099400000004530006_1370565619_234250
+discardCommand4[$e]=rm,$HOME/.kde4/share/config/session/konsole_10c4dee372000136926284000000004530013_1370565619_234252
+discardCommand5[$e]=rm,$HOME/.kde4/share/config/session/konsole_10c4dee372000137055327700000004220010_1370565619_234322
+program1=kwin
+program2=/usr/bin/nepomukcontroller
+program3=/usr/bin/kmix
+program4=/usr/bin/konsole
+program5=/bin/konsole
+restartCommand1=kwin,-session,10c4dee372000136863822100000005380000_1370565619_244303
+restartCommand2=/usr/bin/nepomukcontroller,-session,10c4dee372000136863822700000005380021_1370565619_234186
+restartCommand3=/usr/bin/kmix,-session,10c4dee372000136924099400000004530006_1370565619_234250
+restartCommand4=/usr/bin/konsole,-session,10c4dee372000136926284000000004530013_1370565619_234252
+restartCommand5=/bin/konsole,-session,10c4dee372000137055327700000004220010_1370565619_234322
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+restartStyleHint5=0
+userId1=piranha
+userId2=piranha
+userId3=piranha
+userId4=piranha
+userId5=piranha
+wasWm1=true
+wasWm2=false
+wasWm3=false
+wasWm4=false
+wasWm5=false
+
+[SubSession: 4a36929d-8de5-4307-bcfc-46316ef2735f]
+count=0

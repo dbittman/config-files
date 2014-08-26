@@ -1,0 +1,7 @@
+[ScreenSaver]
+Enabled=false
+LegacySaverEnabled=false
+Lock=false
+LockGrace=60000
+PlasmaEnabled=false
+Timeout=60

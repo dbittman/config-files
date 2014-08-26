@@ -1,0 +1,414 @@
+[Colors]
+CurrentPalette=Forty Colors
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[DownloadDialog Settings]
+Height 1080=400
+Width 1920=700
+
+[External Scripts]
+firstUse=false
+
+[External Scripts][script 0]
+command=g++ -o %b %f && ./%b
+errorMode=0
+filterMode=6750324
+inputMode=0
+name=quick compile
+outputMode=0
+saveMode=0
+shortcuts=
+showOutput=true
+
+[External Scripts][script 1]
+command=xdg-open "http://www.google.de/search?q=%s"
+errorMode=0
+filterMode=3407968
+inputMode=0
+name=google selection
+outputMode=0
+saveMode=0
+shortcuts=
+showOutput=false
+
+[External Scripts][script 2]
+command=sort
+errorMode=0
+filterMode=3407968
+inputMode=2
+name=sort selection
+outputMode=3
+saveMode=0
+shortcuts=
+showOutput=false
+
+[Favorite Profiles]
+Favorites=
+
+[KFileDialog Settings]
+Height 1080=450
+Recent Files[$e]=term.tex,$HOME/code/swarm/swarm,$HOME/Documents/cs122/term.tex
+Recent URLs[$e]=$HOME/Downloads/,$HOME/code/,$HOME/code/arm-kernel/,$HOME/Documents/writ2/,$HOME/Documents/cs122/,$HOME/code/swarm/
+Width 1920=720
+
+[Kate Document Defaults]
+Allow End of Line Detection=true
+Allow Simple Mode=true
+BOM=false
+Backup Flags=0
+Backup Prefix=
+Backup Suffix=~
+Encoding=ISO-8859-1
+End of Line=0
+Indent On Backspace=false
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=ruby
+Indentation Width=4
+Keep Extra Spaces=true
+Line Length Limit=4096
+Newline At EOF=false
+No sync=false
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=0
+ReplaceTabsDyn=false
+Search Dir Config Depth=9
+Show Spaces=false
+Show Tabs=false
+Smart Home=true
+Tab Handling=2
+Tab Width=4
+Word Wrap=false
+Word Wrap Column=80
+
+[Kate Part Defaults]
+Encoding Prober Type=1
+Fallback Encoding=ISO-8859-15
+
+[Kate Renderer Defaults]
+Schema=KDE
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[Kate Vi Input Mode Settings]
+Command Mode Mapping Keys=
+Command Mode Mappings=
+Command Mode Mappings Recursion=
+Insert Mode Mapping Keys=
+Insert Mode Mappings=
+Insert Mode Mappings Recursion=
+Macro Completions=
+Macro Contents=
+Macro Registers=
+Normal Mode Mapping Keys=
+Normal Mode Mappings=
+Normal Mode Mappings Recursion=
+Visual Mode Mapping Keys=
+Visual Mode Mappings=
+Visual Mode Mappings Recursion=
+
+[Kate View Defaults]
+Allow Mark Menu=true
+Auto Center Lines=0
+Auto Completion=true
+Bookmark Menu Sorting=0
+Default Mark Type=1
+Dynamic Word Wrap=false
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap Indicators=1
+Folding Bar=true
+Line Modification=false
+Line Numbers=true
+Maximum Search History Size=100
+Persistent Selection=false
+Replacement Text History=
+Scroll Bar Marks=false
+Scroll Bar Mini Map=false
+Scroll Bar Mini Map All=false
+Scroll Bar Mini Map Width=60
+Scroll Past End=false
+Search Pattern History=
+Search/Replace Flags=140
+Smart Copy Cut=false
+Vi Input Mode=false
+Vi Input Mode Emulate Command Bar=false
+Vi Input Mode Hide Status Bar=false
+Vi Input Mode Steal Keys=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
+
+[KatePart Settings]
+documents=/home/piranha/code/sea/seakernel/arch/x86/kernel/loader/exec.c,/home/piranha/code/sea/seakernel/kernel/panic.c,/home/piranha/code/sea/seakernel/kernel/syscall.c,/home/piranha/code/sea/seakernel/drivers/ata/util.c,/home/piranha/code/sea/seakernel/arch/x86_common/kernel/mm/pfault.c,/home/piranha/code/sea/seakernel/drivers/net/cards/rtl8139.c,/home/piranha/code/sea/seakernel/kernel/cpu/cpu.c,/home/piranha/code/sea/seakernel/drivers/char/rand.c,/home/piranha/code/sea/apps/porting/build.rb,/home/piranha/code/sea/toolchain/build.rb,/home/piranha/code/sea/seakernel/kernel/tm/schedule.c,/home/piranha/code/sea/seakernel/kernel/cpu/interrupt.c,/home/piranha/code/sea/seakernel/kernel/tm/tick.c,/home/piranha/code/sea/seakernel/library/klib/hash.c,/home/piranha/code/sea/seakernel/arch/x86/kernel/machine/int.s,/home/piranha/code/sea/seakernel/arch/x86/include/sea/tm/context-x86.h,/home/piranha/code/sea/seakernel/arch/x86_common/kernel/machine/isr.c,/home/piranha/code/sea/seakernel/kernel/fs/ramfs.c,/home/piranha/code/sea/seakernel/library/klib/hash_chain.c
+
+[KatePart Settings][/home/piranha/code/sea/apps/porting/build.rb]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=Ruby
+Indentation Mode=ruby
+Mode=Ruby
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/arch/x86/include/sea/tm/context-x86.h]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/arch/x86/kernel/loader/exec.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/arch/x86/kernel/machine/int.s]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=GNU Assembler
+Indentation Mode=ruby
+Mode=GNU Assembler
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/arch/x86_common/kernel/machine/isr.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/arch/x86_common/kernel/mm/pfault.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/drivers/ata/util.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/drivers/char/rand.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/drivers/net/cards/rtl8139.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/kernel/cpu/cpu.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/kernel/cpu/interrupt.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/kernel/fs/ramfs.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/kernel/panic.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/kernel/syscall.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/kernel/tm/schedule.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/kernel/tm/tick.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/library/klib/hash.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/seakernel/library/klib/hash_chain.c]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=C
+Indentation Mode=cstyle
+Mode=C
+
+[KatePart Settings][/home/piranha/code/sea/toolchain/build.rb]
+Bookmarks=
+Encoding=ISO-8859-1
+Highlighting=Ruby
+Indentation Mode=ruby
+Mode=Ruby
+
+[Main Window]
+Desktop 1440 900=0,18,1440,855
+Desktop 1920 1080=1444,19,1489,1030
+
+[MainWindow]
+Height 1080=1081
+Height 900=901
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEbAAADtPwCAAAABfsAAAAYAEMAbABhAHMAcwBlAHMAXwBjAG8AZABlAAAAAD0AAAOzAAAAbwD////7AAAAHABEAG8AYwB1AG0AZQBuAHQAcwBfAGMAbwBkAGUAAAAAPAAAA7QAAABVAP////sAAAAgAEYAaQBsAGUAcwB5AHMAdABlAG0AXwBkAGUAYgB1AGcBAAAAPAAAA7QAAAAAAAAAAPsAAAAaAFAAcgBvAGoAZQBjAHQAcwBfAGMAbwBkAGUBAAAAPAAAA7QAAAAAAAAAAPsAAAAeAEYAaQBsAGUAcwB5AHMAdABlAG0AXwBjAG8AZABlAQAAADwAAAO0AAAARgD///8AAAABAAABPwAAA7T8AgAAAAH7AAAAJABEAG8AYwB1AG0AZQBuAHQAYQB0AGkAbwBuAF8AYwBvAGQAZQAAAAA8AAADtAAAADEA////AAAAAwAAA7wAAADt/AEAAAAJ+wAAACIAQwBvAGQAZQAgAEIAcgBvAHcAcwBlAHIAXwBjAG8AZABlAAAAAT0AAARNAAAAVQD////7AAAAGABLAG8AbgBzAG8AbABlAF8AYwBvAGQAZQAAAAE3AAADgwAAABcA////+wAAACgAVgBlAHIAcwBpAG8AbgAgAEMAbwBuAHQAcgBvAGwAXwBjAG8AZABlAQAAATcAAAO8AAAAAAAAAAD7AAAAGgBQAHIAbwBiAGwAZQBtAHMAXwBjAG8AZABlAAAAATcAAAO8AAAAVQD////7AAAAFgBEAGUAYgB1AGcAXwBkAGUAYgB1AGcBAAABNwAAA7wAAAAAAAAAAPsAAAAWAEIAdQBpAGwAZABfAGQAZQBiAHUAZwEAAAE3AAADvAAAAAAAAAAA+wAAABQARABlAGIAdQBnAF8AYwBvAGQAZQEAAAE3AAADvAAAAAAAAAAA+wAAABAAUgB1AG4AXwBjAG8AZABlAQAAATcAAAO8AAAAAAAAAAD7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAQAAATcAAAO8AAAAAAAAAAAAAASEAAADtAAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZABlAGIAdQBnAFQAbwBvAGwAQgBhAHIAAAACcP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAAJ6/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAAA1T/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1440=1441
+Width 1920=1489
+
+[MainWindow_code]
+Height 1080=1030
+Height 900=855
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEbAAADtPwCAAAABfsAAAAYAEMAbABhAHMAcwBlAHMAXwBjAG8AZABlAAAAAD0AAAOzAAAAbwD////7AAAAHABEAG8AYwB1AG0AZQBuAHQAcwBfAGMAbwBkAGUAAAAAPAAAA7QAAABVAP////sAAAAgAEYAaQBsAGUAcwB5AHMAdABlAG0AXwBkAGUAYgB1AGcBAAAAPAAAA7QAAAAAAAAAAPsAAAAaAFAAcgBvAGoAZQBjAHQAcwBfAGMAbwBkAGUBAAAAPAAAA7QAAAAAAAAAAPsAAAAeAEYAaQBsAGUAcwB5AHMAdABlAG0AXwBjAG8AZABlAQAAADwAAAO0AAAARgD///8AAAABAAABPwAAA7T8AgAAAAH7AAAAJABEAG8AYwB1AG0AZQBuAHQAYQB0AGkAbwBuAF8AYwBvAGQAZQAAAAA8AAADtAAAADEA////AAAAAwAAA7wAAADt/AEAAAAJ+wAAACIAQwBvAGQAZQAgAEIAcgBvAHcAcwBlAHIAXwBjAG8AZABlAAAAAT0AAARNAAAAVQD////7AAAAGABLAG8AbgBzAG8AbABlAF8AYwBvAGQAZQAAAAE3AAADgwAAABcA////+wAAACgAVgBlAHIAcwBpAG8AbgAgAEMAbwBuAHQAcgBvAGwAXwBjAG8AZABlAQAAATcAAAO8AAAAAAAAAAD7AAAAGgBQAHIAbwBiAGwAZQBtAHMAXwBjAG8AZABlAAAAATcAAAO8AAAAVQD////7AAAAFgBEAGUAYgB1AGcAXwBkAGUAYgB1AGcBAAABNwAAA7wAAAAAAAAAAPsAAAAWAEIAdQBpAGwAZABfAGQAZQBiAHUAZwEAAAE3AAADvAAAAAAAAAAA+wAAABQARABlAGIAdQBnAF8AYwBvAGQAZQEAAAE3AAADvAAAAAAAAAAA+wAAABAAUgB1AG4AXwBjAG8AZABlAQAAATcAAAO8AAAAAAAAAAD7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAQAAATcAAAO8AAAAAAAAAAAAAASEAAADtAAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZABlAGIAdQBnAFQAbwBvAGwAQgBhAHIAAAACcP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAAJ6/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAAA1T/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 1440=1440
+Width 1920=1489
+debugToolBarVisibility=false
+
+[MainWindow_debug]
+Height 1080=1081
+Height 900=901
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEbAAADtPwCAAAABfsAAAAYAEMAbABhAHMAcwBlAHMAXwBjAG8AZABlAAAAAD0AAAOzAAAAAAAAAAD7AAAAHABEAG8AYwB1AG0AZQBuAHQAcwBfAGMAbwBkAGUAAAAAPAAAA7QAAAAAAAAAAPsAAAAeAEYAaQBsAGUAcwB5AHMAdABlAG0AXwBjAG8AZABlAAAAADwAAAO0AAAAAAAAAAD7AAAAGgBQAHIAbwBqAGUAYwB0AHMAXwBjAG8AZABlAQAAADwAAAO0AAAAAAAAAAD7AAAAIABGAGkAbABlAHMAeQBzAHQAZQBtAF8AZABlAGIAdQBnAQAAADwAAAO0AAAARgD///8AAAABAAABPwAAA7T8AgAAAAH7AAAAJABEAG8AYwB1AG0AZQBuAHQAYQB0AGkAbwBuAF8AYwBvAGQAZQAAAAA8AAADtAAAAAAAAAAAAAAAAwAAA7wAAADt/AEAAAAJ+wAAACIAQwBvAGQAZQAgAEIAcgBvAHcAcwBlAHIAXwBjAG8AZABlAAAAAT0AAARNAAAAAAAAAAD7AAAAGABLAG8AbgBzAG8AbABlAF8AYwBvAGQAZQAAAAE3AAADgwAAAAAAAAAA+wAAACgAVgBlAHIAcwBpAG8AbgAgAEMAbwBuAHQAcgBvAGwAXwBjAG8AZABlAQAAATcAAAO8AAAAAAAAAAD7AAAAGgBQAHIAbwBiAGwAZQBtAHMAXwBjAG8AZABlAAAAATcAAAO8AAAAAAAAAAD7AAAAFABEAGUAYgB1AGcAXwBjAG8AZABlAQAAATcAAAO8AAAAAAAAAAD7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAQAAATcAAAO8AAAAAAAAAAD7AAAAEABSAHUAbgBfAGMAbwBkAGUBAAABNwAAA7wAAAAAAAAAAPsAAAAWAEQAZQBiAHUAZwBfAGQAZQBiAHUAZwEAAAE3AAADvAAAAAAAAAAA+wAAABYAQgB1AGkAbABkAF8AZABlAGIAdQBnAQAAATcAAAO8AAAAVQD///8AAAO8AAACwQAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZABlAGIAdQBnAFQAbwBvAGwAQgBhAHIBAAACcP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAALd/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAAA7f/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 1440=1441
+Width 1920=1289
+debugToolBarVisibility=true
+
+[MainWindow_review]
+Height 900=901
+State=AAAA/wAAAAD9AAAAAQAAAAMAAAV0AAABFfwBAAAAA/sAAAAYAEIAdQBpAGwAZABfAHIAZQB2AGkAZQB3AAAAABYAAAV0AAAAQQD////7AAAALABWAGUAcgBzAGkAbwBuACAAQwBvAG4AdAByAG8AbABfAHIAZQB2AGkAZQB3AQAAABYAAAV0AAAAAAAAAAD7AAAAJgBQAGEAdABjAGgAIABSAGUAdgBpAGUAdwBfAHIAZQB2AGkAZQB3AQAAABYAAAV0AAACVgD///8AAAV0AAAB6QAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZABlAGIAdQBnAFQAbwBvAGwAQgBhAHIAAAACHf////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAAJ6/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAAA1T/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 1440=1441
+debugToolBarVisibility=false
+
+[Notification Messages]
+ShouldAskConfirmCommit=false
+
+[Open File]
+Last Open File Directory=file:///home/piranha/code/sea/apps/porting/
+
+[Recent Files]
+File1[$e]=$HOME/code/sea/seakernel/library/klib/hash_chain.c
+File10[$e]=$HOME/code/sea/apps/porting/build.rb
+File2[$e]=$HOME/code/sea/seakernel/library/klib/hash.c
+File3[$e]=$HOME/code/sea/seakernel/arch/x86/include/sea/tm/context-x86.h
+File4[$e]=$HOME/code/sea/seakernel/arch/x86/kernel/machine/int.s
+File5[$e]=$HOME/code/sea/seakernel/arch/x86_common/kernel/machine/isr.c
+File6[$e]=$HOME/code/sea/seakernel/kernel/cpu/interrupt.c
+File7[$e]=$HOME/code/sea/seakernel/kernel/tm/tick.c
+File8[$e]=$HOME/code/sea/seakernel/kernel/tm/schedule.c
+File9[$e]=$HOME/code/sea/toolchain/build.rb
+Name1[$e]=hash_chain.c
+Name10[$e]=build.rb
+Name2[$e]=hash.c
+Name3[$e]=context-x86.h
+Name4[$e]=int.s
+Name5[$e]=isr.c
+Name6[$e]=interrupt.c
+Name7[$e]=tick.c
+Name8[$e]=schedule.c
+Name9[$e]=build.rb
+
+[RecentProjects]
+File1[$e]=$HOME/code/noted/noted.kdev4
+File2[$e]=$HOME/code/haunted-house/haunted-house.kdev4
+File3[$e]=$HOME/code/sea/sea.kdev4
+File4[$e]=$HOME/code/swarm/swarm.kdev4
+File5[$e]=$HOME/code/sea/seakernel/seakernel.kdev4
+Name1[$e]=noted.kdev4
+Name2[$e]=haunted-house.kdev4
+Name3[$e]=sea.kdev4
+Name4[$e]=swarm.kdev4
+Name5[$e]=seakernel.kdev4
+
+[Sessions]
+Active Session ID={17a2051e-17d3-46c4-9f1e-27ff787a847c}
+
+[User Interface]
+Main Windows Count=1
+
+[User Interface][Main Window 0]
+currentArea=code
+
+[User Interface][Main Window 0][Area code]
+desired views=org.kdevelop.ClassBrowserView:1,org.kdevelop.ContextBrowser:8,org.kdevelop.DocumentationView:2,org.kdevelop.DocumentsView:1,org.kdevelop.ExternalScriptView:2,org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView:8,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.2:8,org.kdevelop.OutputView.29:8,org.kdevelop.OutputView.3:8,org.kdevelop.OutputView.38:8,org.kdevelop.OutputView.4:8,org.kdevelop.OutputView.5:8,org.kdevelop.OutputView.6:8,org.kdevelop.OutputView.69:8,org.kdevelop.OutputView.8:8,org.kdevelop.ProblemReporterView:8,org.kdevelop.ProjectsView:1,org.kdevelop.SnippetView:2
+id=code
+thickness bottom=-1
+thickness left=-1
+thickness right=-1
+thickness top=-1
+view on bottom=org.kdevelop.OutputView.0
+view on left=org.kdevelop.FileManagerView
+view on right=
+view on top=
+working set=code_7098835
+
+[User Interface][Main Window 0][Area debug]
+desired views=org.kdevelop.DocumentationView:2,org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.2:8,org.kdevelop.OutputView.29:8,org.kdevelop.OutputView.3:8,org.kdevelop.OutputView.38:8,org.kdevelop.OutputView.4:8,org.kdevelop.OutputView.5:8,org.kdevelop.OutputView.6:8,org.kdevelop.OutputView.69:8,org.kdevelop.OutputView.8:8,org.kdevelop.debugger.BreakpointsView:8,org.kdevelop.debugger.ConsoleView:8,org.kdevelop.debugger.StackView:8,org.kdevelop.debugger.VariablesView:1
+id=debug
+thickness bottom=-1
+thickness left=-1
+thickness right=-1
+thickness top=-1
+view on bottom=org.kdevelop.OutputView.0
+view on left=org.kdevelop.FileManagerView
+view on right=
+view on top=
+working set=code_7098835
+
+[User Interface][Main Window 0][Area review]
+desired views=org.kdevelop.DocumentationView:2,org.kdevelop.FileManagerView:1,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.2:8,org.kdevelop.OutputView.29:8,org.kdevelop.OutputView.3:8,org.kdevelop.OutputView.38:8,org.kdevelop.OutputView.4:8,org.kdevelop.OutputView.5:8,org.kdevelop.OutputView.6:8,org.kdevelop.OutputView.69:8,org.kdevelop.OutputView.8:8,org.kdevelop.PatchReview:8,org.kdevelop.ProjectsView:1
+id=review
+thickness bottom=-1
+thickness left=-1
+thickness right=-1
+thickness top=-1
+view on bottom=org.kdevelop.PatchReview
+view on left=
+view on right=
+view on top=
+working set=review
+
+[breakpoints]
+number=0
+
+[breakpoints][0]
+condition=
+enabled=true
+expression=
+ignoreHits=0
+kind=Code
+line=129
+url=file:///home/piranha/code/sea/seakernel/include/fs.h

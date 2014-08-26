@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-xml
+Name=manifest.xml
+Type=Link
+URL[$e]=file://$HOME/cm10/.repo/manifest.xml
+X-KDE-LastOpenedWith=kwrite

@@ -1,0 +1,26 @@
+[Display]
+ApplyOnStartup=true
+StartupCommands=xrandr --output DVI-I-0 --pos 0x0 --mode 1440x900 --refresh 59.8874\nxrandr --output HDMI-0 --pos 1440x0 --mode 1920x1080 --refresh 60\nxrandr --output DVI-D-0 --pos 3360x0 --mode 1280x1024 --refresh 60.0197\nxrandr --output HDMI-0 --primary
+
+[Screen_0]
+OutputsUnified=false
+UnifiedRect=0,0,0,0
+UnifiedRotation=1
+
+[Screen_0_Output_DVI-D-0]
+Active=true
+Rect=3360,0,1280,1024
+RefreshRate=60.0197410583496
+Rotation=1
+
+[Screen_0_Output_DVI-I-0]
+Active=true
+Rect=0,0,1440,900
+RefreshRate=59.8874435424805
+Rotation=1
+
+[Screen_0_Output_HDMI-0]
+Active=true
+Rect=1440,0,1920,1080
+RefreshRate=60
+Rotation=1
