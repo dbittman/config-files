@@ -28,7 +28,7 @@ zmodload -a zsh/stat stat
 zmodload -a zsh/zpty zpty
 zmodload -a zsh/zprof zprof
 
-PATH="/usr/local/cross/bin:/usr/local/bin:/usr/local/sbin/:/bin:/sbin:/usr/bin:/usr/sbin:$PATH"
+PATH="/usr/local/cross/bin:/usr/local/bin:/usr/local/sbin/:/bin:/sbin:/usr/bin:/usr/sbin:$PATH:/home/piranha/bin"
 TZ="America/Los_Angeles"
 
 alias wtf='dmesg'
@@ -225,7 +225,7 @@ zle -N fancy-ctrl-z
 bindkey '^Z' fancy-ctrl-z
 
 
-PS1="[$PR_BLUE%n$PR_WHITE@$PR_GREEN%U%m%u$PR_NO_COLOR:$PR_RED%2c$PR_NO_COLOR]%(!.#.$) "
+PS1="[$PR_BLUE%n$PR_WHITE@$PR_GREEN%m$PR_NO_COLOR:$PR_RED%2c$PR_NO_COLOR]%(!.#.$) "
 RPS1="$PR_LIGHT_YELLOW(%D{%m-%d %H:%M})$PR_NO_COLOR"
 #if [[ $STY = '' ]] then screen -qxR; fi
 bindkey "^[[3~" delete-char
@@ -269,4 +269,5 @@ PATH=$PATH:/home/piranha/.gem/ruby/2.1.0/bin
 export GCC_COLORS="error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01"
 export TERM=xterm-256color
 [ -n "$TMUX" ] && export TERM=screen-256color
-
+export PANEL_FIFO="/tmp/panel-fifo"
+PATH=$PATH:/home/piranha/.config/bspwm/panel
