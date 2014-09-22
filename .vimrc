@@ -447,5 +447,7 @@ if &term =~ '^screen'
 	execute "set <xLeft>=\e[1;*D"
 	map [5;5~ :tabp<CR>
 	map [6;5~ :tabn<CR>
+	map! [5;5~ <ESC>:tabp<CR>
+	map! [6;5~ <ESC>:tabn<CR>
 endif
 
