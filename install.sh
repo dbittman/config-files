@@ -10,4 +10,5 @@ done
 
 cp prompt_db_setup "${ZDOTDIR:-$HOME}/.zprezto/modules/prompt/functions/"
 cp .zshrc "${ZDOTDIR:-$HOME}/.zshrc"
+cp .zpreztorc "${ZDOTDIR:-$HOME}"
 
