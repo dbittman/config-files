@@ -9,4 +9,5 @@ for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
 done
 
 cp prompt_db_setup "${ZDOTDIR:-$HOME}/.zprezto/modules/prompt/functions/"
+cp .zshrc "${ZDOTDIR:-$HOME}/.zshrc"
 
