@@ -1,146 +1,48 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
 [[ -z "$PS1" ]] && return
-skip_global_compinit=1
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/piranha/.zshrc_comp'
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+	source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
 
-autoload -Uz compinit
-. ~/.zshrc_comp
-# End of lines added by compinstall
-# Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
-setopt appendhistory autocd extendedglob notify
-unsetopt beep
-bindkey -v
-# End of lines configured by zsh-newuser-install
+# Customize to your needs...
+prompt db
 
-unsetopt BG_NICE
-setopt MENUCOMPLETE
-setopt ALL_EXPORT
+alias ssrv='ssh danny@192.168.2.200'
+alias pssrv='ssh danny@dbittman.mooo.com'
 
-setopt   notify globdots pushdtohome cdablevars autolist
-setopt   autocd recexact longlistjobs
-setopt   autoresume histignoredups pushdsilent 
-setopt   autopushd pushdminus extendedglob rcquotes mailwarning
-unsetopt bgnice autoparamslash
-zmodload -a zsh/stat stat
-zmodload -a zsh/zpty zpty
-zmodload -a zsh/zprof zprof
+autoload edit-command-line
+zle -N edit-command-line
+bindkey '^Xe' edit-command-line
 
-PATH="/usr/local/cross/bin:/usr/local/bin:/usr/local/sbin/:/bin:/sbin:/usr/bin:/usr/sbin:$PATH:/home/piranha/bin"
+alias sut='ssh dbittman@unix.ic.ucsc.edu'
+
+export GCC_COLORS="error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01"
+export TERM=xterm-256color
+[ -n "$TMUX" ] && export TERM=screen-256color
+zle -N fancy-ctrl-z
+bindkey '^Z' fancy-ctrl-z
+fancy-ctrl-z () {
+	if [[ $#BUFFER -eq 0 ]]; then
+		bg
+		zle redisplay
+	else
+		zle push-input
+	fi
+}
+
 TZ="America/Los_Angeles"
 
 alias wtf='dmesg'
 
 export PAGER='less'
 export EDITOR='vim'
-
-autoload colors zsh/terminfo
-if [[ "$terminfo[colors]" -ge 8 ]]; then
-   colors
-fi
-for color in RED GREEN YELLOW BLUE MAGENTA CYAN WHITE; do
-   eval PR_$color='%{$terminfo[bold]$fg[${(L)color}]%}'
-   eval PR_LIGHT_$color='%{$fg[${(L)color}]%}'
-   (( count = $count + 1 ))
-done
-PR_NO_COLOR="%{$terminfo[sgr0]%}"
-
-unsetopt ALL_EXPORT
-alias ll='ls -al'
-alias ls='ls --color=auto '
-alias offlineimap-tty='offlineimap -u TTY.TTYUI'
-alias hnb-partecs='hnb $HOME/partecs/partecs-hnb.xml'
-alias rest2html-css='rst2html --embed-stylesheet --stylesheet-path=/usr/share/python-docutils/s5_html/themes/default/print.css'
-bindkey "^?" backward-delete-char
-bindkey '^[OH' beginning-of-line
-bindkey '^[OF' end-of-line
-bindkey '^[[5~' up-line-or-history
-bindkey '^[[6~' down-line-or-history
-bindkey "^r" history-incremental-search-backward
-bindkey ' ' magic-space    # also do history expansion on space
-bindkey '^I' complete-word # complete on tab, leave expansion to _expand
-
-zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
-zstyle ':completion:*' list-prompt '%SAt %p: Hit TAB for more, or the character to insert%s'
-zstyle ':completion:*' menu select=1 _complete _ignored _approximate
-zstyle -e ':completion:*:approximate:*' max-errors \
-    'reply=( $(( ($#PREFIX+$#SUFFIX)/2 )) numeric )'
-zstyle ':completion:*' select-prompt '%SScrolling active: current selection at %p%s'
-
-# Completion Styles
-
-# list of completers to use
-zstyle ':completion:*::::' completer _expand _complete _ignored _approximate
-
-# allow one error for every three characters typed in approximate completer
-zstyle -e ':completion:*:approximate:*' max-errors \
-    'reply=( $(( ($#PREFIX+$#SUFFIX)/2 )) numeric )'
-    
-# insert all expansions for expand completer
-zstyle ':completion:*:expand:*' tag-order all-expansions
-
-# formatting and messages
-zstyle ':completion:*' verbose yes
-zstyle ':completion:*:descriptions' format '%B%d%b'
-zstyle ':completion:*:messages' format '%d'
-zstyle ':completion:*:warnings' format 'No matches for: %d'
-zstyle ':completion:*:corrections' format '%B%d (errors: %e)%b'
-zstyle ':completion:*' group-name ''
-
-# match uppercase from lowercase
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-
-# offer indexes before parameters in subscripts
-zstyle ':completion:*:*:-subscript-:*' tag-order indexes parameters
-
-# command for process lists, the local web server details and host completion
-# on processes completion complete all user processes
-# zstyle ':completion:*:processes' command 'ps -au$USER'
-
-## add colors to processes for kill completion
-zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
-
-#zstyle ':completion:*:processes' command 'ps ax -o pid,s,nice,stime,args | sed "/ps/d"'
-zstyle ':completion:*:*:kill:*:processes' command 'ps --forest -A -o pid,user,cmd'
-zstyle ':completion:*:processes-names' command 'ps axho command' 
-#zstyle ':completion:*:urls' local 'www' '/var/www/htdocs' 'public_html'
-#
-#NEW completion:
-# 1. All /etc/hosts hostnames are in autocomplete
-# 2. If you have a comment in /etc/hosts like #%foobar.domain,
-#    then foobar.domain will show up in autocomplete!
-zstyle ':completion:*' hosts $(awk '/^[^#]/ {print $2 $3" "$4" "$5}' /etc/hosts | grep -v ip6- && grep "^#%" /etc/hosts | awk -F% '{print $2}') 
-# Filename suffixes to ignore during completion (except after rm command)
-zstyle ':completion:*:*:(^rm):*:*files:*file' ignored-patterns '*?.o' '*?.c~' \
-    '*?.old' '*?.pro'
-# the same for old style completion
-#fignore=(.o .c~ .old .pro)
-
-# ignore completion functions (until the _ignored completer)
-zstyle ':completion:*:functions' ignored-patterns '_*'
-zstyle ':completion:*:*:*:users' ignored-patterns \
-        adm apache bin daemon games gdm halt ident junkbust lp mail mailnull \
-        named news nfsnobody nobody nscd ntp operator pcap postgres radvd \
-        rpc rpcuser rpm shutdown squid sshd sync uucp vcsa xfs avahi-autoipd\
-        avahi backup messagebus beagleindex debian-tor dhcp dnsmasq fetchmail\
-        firebird gnats haldaemon hplip irc klog list man cupsys postfix\
-        proxy syslog www-data mldonkey sys snort
-# SSH Completion
-zstyle ':completion:*:scp:*' tag-order \
-   files users 'hosts:-host hosts:-domain:domain hosts:-ipaddr"IP\ Address *'
-zstyle ':completion:*:scp:*' group-order \
-   files all-files users hosts-domain hosts-host hosts-ipaddr
-zstyle ':completion:*:ssh:*' tag-order \
-   users 'hosts:-host hosts:-domain:domain hosts:-ipaddr"IP\ Address *'
-zstyle ':completion:*:ssh:*' group-order \
-   hosts-domain hosts-host users hosts-ipaddr
-zstyle '*' single-ignored show
-
-autoload -U promptinit
-promptinit
-
+setopt appendhistory autocd extendedglob notify
 function extract() {
   local remove_archive
   local success
@@ -213,61 +115,3 @@ function extract() {
 
 alias x=extract
 
-fancy-ctrl-z () {
-  if [[ $#BUFFER -eq 0 ]]; then
-    bg
-    zle redisplay
-  else
-    zle push-input
-  fi
-}
-zle -N fancy-ctrl-z
-bindkey '^Z' fancy-ctrl-z
-
-
-PS1="[$PR_BLUE%n$PR_WHITE@$PR_GREEN%m$PR_NO_COLOR:$PR_RED%2c$PR_NO_COLOR]%(!.#.$) "
-RPS1="$PR_LIGHT_YELLOW(%D{%m-%d %H:%M})$PR_NO_COLOR"
-#if [[ $STY = '' ]] then screen -qxR; fi
-bindkey "^[[3~" delete-char
-bindkey "^[[5D" backward-word
-bindkey "^[[5C" forward-word
-
-# No autocorrect
-unsetopt correct_all
-
-alias ssrv='ssh danny@192.168.2.200'
-alias pssrv='ssh danny@dbittman.mooo.com'
-
-source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern root)
-
-alias dosysupgrade='sudo aura -Syu && sudo aura -Au'
-
-function sysupgrade () {
-  ping -c 1 google.com &>/dev/null
-  if [[ $? -ne 0 ]]; then
-    curl ifconfig.me &>/dev/null
-    if [[ $? -ne 0 ]]; then
-      echo error: could not establish a working internet connection
-      return
-    fi
-  fi
-  
-  sudo yaourt -Syua
-
-}
-
-autoload edit-command-line
-zle -N edit-command-line
-bindkey '^Xe' edit-command-line
-
-alias sut='ssh dbittman@unix.ic.ucsc.edu'
-compinit
-
-PATH=$PATH:/home/piranha/.gem/ruby/2.1.0/bin
-export GCC_COLORS="error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01"
-export TERM=xterm-256color
-[ -n "$TMUX" ] && export TERM=screen-256color
-export PANEL_FIFO="/tmp/panel-fifo"
-PATH=$PATH:/home/piranha/.config/bspwm/panel
