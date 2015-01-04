@@ -114,4 +114,5 @@ function extract() {
 }
 
 alias x=extract
+bindkey -v
 
